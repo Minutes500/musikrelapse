@@ -1,0 +1,41 @@
+{
+  "name": "soundcloud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "create-react-class": "^15.6.3",
+    "express": "^4.16.4",
+    "if-env": "^1.0.4",
+    "install": "^0.12.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
+    "npm": "^6.6.0",
+    "p5": "^0.7.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-animated-css": "^1.0.4",
+    "react-audio-visualizer": "^1.0.3",
+    "react-owl-carousel": "^2.3.1",
+    "react-p5-wrapper": "0.0.4",
+    "react-spinner": "^0.2.7",
+    "rxjs": "^6.3.3",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "description": ""
+}
