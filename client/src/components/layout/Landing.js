@@ -11,7 +11,7 @@ class Landing extends Component {
     render() {
         return (
             
-            <div>
+            
             
                 <div className="hero-slides" >
                     {/* <!-- Single Hero Slide --> */}
@@ -76,9 +76,7 @@ class Landing extends Component {
                     </OwlCarousel>
                 </div>
             </div>
-          
 
-</div>
         )
     }
 }
