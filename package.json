@@ -32,7 +32,7 @@
     "react-p5-wrapper": "0.0.4",
     "react-spinner": "^0.2.7",
     "rxjs": "^6.3.3",
-    "validator": "^10.10.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
