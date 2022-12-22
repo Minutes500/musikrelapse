@@ -20,7 +20,7 @@
     "express": "^4.16.4",
     "if-env": "^1.0.4",
     "install": "^0.12.2",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.4.2",
     "npm": "^6.6.0",
     "p5": "^0.7.3",
